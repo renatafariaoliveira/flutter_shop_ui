@@ -1,0 +1,28 @@
+name: flutter_shop
+description: A small UI project that I used to implement an idea of online store.
+publish_to: 'none'
+repository: https://github.com/renatafariaoliveira/flutter_shop_ui
+authors:
+  - Renata Oliveira <https://www.linkedin.com/in/renatafariaoliveira/>
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  google_fonts: ^2.1.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
